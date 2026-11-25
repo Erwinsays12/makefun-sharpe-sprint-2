@@ -1,6 +1,5 @@
-// Steady Launch Scalper — entrypoint. The strategy lives in strategy.ts; the
-// grader runs `node main.ts` (Node 22). The SDK shim is vendored at
-// vendor/makefun-bot.ts, byte for byte from the kit.
+// Steady Launch Scalper — Pump.fun Sharpe Sprint entry for make.fun.
+// The strategy lives in strategy.ts; the SDK shim is vendored byte for byte.
 
 import { runBot } from './vendor/makefun-bot.ts';
 import { createStrategy, DEFAULT_PARAMS } from './strategy.ts';
